@@ -1,0 +1,145 @@
+@font-face {
+  font-family:'Roboto', sans-serif ;
+  src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+}
+
+:root {
+  --color1: #2f9a9a;
+  --color2: #129595;
+  --color3: #008080;
+  --color4: #006a6a;
+  --color5: #005454;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+}
+/* vote css */
+.vote-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+.form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: Roboto;
+  background-color: var(--color5);
+  margin: 10px;
+  padding: 10px;
+  min-width: 40%;  
+  border-radius: 20px;
+  color: white;
+  box-shadow: 2px 3px 15px 5px rgb(40, 40, 40);
+}
+
+.form span{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.form-item{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* border: solid red 1px; */
+}
+
+.form-item label{
+  padding: 10px;
+  font-size: 18px;
+}
+
+.form-item  input, select {
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.form-item select option{
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+.form-item button{
+  font-family: Roboto;
+}
+.form-item .btn{
+
+  font-size: 20px;
+  width: 100px;
+  padding: 5px;
+  border-radius: 20px;
+  border: 0;
+  background-color: #008080;
+}
+
+.form-item .btn:hover{
+  background-color: #48d9d9;
+  width: 120px;
+  transition: all;
+  transition-duration: 0.3s;
+
+
+}
+.form:hover{
+  background-color: #025b5b;
+  /* opacity: 0.8; */
+  transition: all;
+  transition-duration: 0.3s;
+}
+
+/* card css */
+.card-container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 60%;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  background-color: var(--color5);
+  width: 15rem;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 2px 3px 15px 5px rgb(40, 40, 40);
+}
+
+.card-item{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 15px;
+}
+.card-item span{
+
+  padding: 10px;
+}
+.card-vote{
+  padding: 50px;
+  border-top: 5px solid var(--color1);
+  font-weight: 500;
+  font-size: 20px;
+}

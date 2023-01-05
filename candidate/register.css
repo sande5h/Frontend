@@ -1,0 +1,72 @@
+@font-face {
+    font-family:'Roboto', sans-serif ;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+  }
+  
+  :root {
+    --white : #fff;
+    --black : #000;
+    --color1: #2f9a9a;
+    --color2: #129595;
+    --color3: #008080;
+    --color4: #006a6a;
+    --color5: #005454;
+  }
+*{
+  margin: 0;
+  padding: 0;
+}
+  
+body{
+  border: 2px red solid;
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Category-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2f9a9a;
+  padding: 20px;
+  border-radius: 20px;
+  min-width: 80%;
+  font-family:'Roboto';
+}
+
+
+.Category-item input[type=text]{
+  font-size: 18px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.Category-item button{
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  border: 1px solid black;
+  font-size: 15px;
+  color: white;
+  font-weight: 400;
+  background-color: var(--black)
+}
+.Category-item button:hover{
+  color: black;
+  background-color: var(--white);
+  border: 1px solid white;
+  transition-property: all;
+  transition-duration: 0.4s;
+
+}
+
+
+  
